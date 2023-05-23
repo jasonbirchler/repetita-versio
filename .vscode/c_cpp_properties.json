@@ -7,7 +7,7 @@
             ],
             "defines": [],
             "macFrameworkPath": [],
-            "compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+            "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
             "intelliSenseMode": "macos-gcc-arm"
         }
     ],
