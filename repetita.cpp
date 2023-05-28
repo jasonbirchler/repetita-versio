@@ -6,8 +6,8 @@ using namespace wreath;
 
 void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
 {
-    ProcessControls();
-    ProcessUi();
+    // ProcessControls();
+    // ProcessUi();
 
     for (size_t i = 0; i < size; i++)
     {
@@ -37,7 +37,7 @@ int main(void)
 
     looper.Init(hw.AudioSampleRate(), conf);
 
-    InitUi();
+    // InitUi();
 
     hw.StartAudio(AudioCallback);
 
